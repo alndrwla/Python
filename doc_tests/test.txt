@@ -1,0 +1,31 @@
+>>> from algorithms import fibonacci
+>>> fibonacci(12)
+144
+
+>>> fibonacci(16)
+987
+
+Suma de 2 + 2 equal 4
+>>> 2 + 2
+4
+
+Resta de 4 - 2 iqual  2
+>>> 4 - 2
+2
+
+Multiplicacion 2 * 2 iqual 4
+>>> 2 * 2
+4
+
+Division 4 / 2 iqual a 2
+>>> 4/2
+2.0
+
+>>> def suma(*args):
+...     return sum(args)
+
+Suma de 2 + 4 + 6 iqual 12
+>>> suma(2, 4, 6)
+12
+
+ //python -m doctest -v test.txt
