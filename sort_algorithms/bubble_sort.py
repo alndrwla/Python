@@ -17,5 +17,5 @@ if __name__ == '__main__':
 
     my_list = [random.randint(0,100) for i in range(size_list)]
 
-    list_order = bubble_sort(my_list)
-    print(list_order)
+    ordered_list = bubble_sort(my_list)
+    print(ordered_list)
